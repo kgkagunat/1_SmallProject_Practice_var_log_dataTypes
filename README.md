@@ -1,4 +1,4 @@
-# 1 SmallProject Practice Logging, Variables, Data-types:
+# 1 Mini Project: Practice Logging, Variables, Data-types:
 Practice vanilla js logging, variables, data-types
 
 Just practicing and understanding vanilla js console.logs, learning variable types and data-types.
