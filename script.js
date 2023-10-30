@@ -39,46 +39,25 @@ console.log(test4); // After
 
 // 3) Checking value types
 const string = 'This is a string';
-console.log(
-    typeof string + ': ' + string + ' -- Is String?',
-    typeof string === 'string'
-);
+console.log(string, typeof string);
 
 const number = 31;
-console.log(
-    typeof number + ': ' + number + ' -- Is Number?',
-    typeof number === 'number'
-);
+console.log(number, typeof number);
 
 const bool = true;
-console.log(
-    typeof bool + ': ' + bool + ' -- Is Boolean?',
-    typeof bool === 'boolean'
-);
+console.log(bool, typeof bool);
 
 const nullValue = null;
-console.log(
-    typeof nullValue + ': ' + nullValue + ' -- Is Null?',
-    nullValue === null
-);
+console.log(nullValue, typeof nullValue);
 
 const undefinedValue = undefined;
-console.log(
-    typeof undefinedValue + ': ' + undefinedValue + ' -- Is Undefined?',
-    undefinedValue === undefined
-);
+console.log(undefinedValue, typeof undefinedValue);
 
 const numbers = [20, 98, 56];
-console.log(
-    typeof numbers + ': ' + numbers + ' -- ' + 'Is array?',
-    Array.isArray(numbers)
-);
+console.log(numbers, typeof numbers, Array.isArray(numbers));
 
 const peoples = { person1: 'Angela', person2: 'John' };
-console.log(
-    typeof peoples + ': ' + peoples + ' -->' + 'Is array?',
-    Array.isArray(peoples)
-);
+console.log(peoples, typeof peoples, Array.isArray(peoples));
 
 const functionTest = function () {
     console.log('Function Test: Function');
